@@ -1,6 +1,6 @@
-export const NAME = 'Safia khoulaid';
+export const NAME = 'Safia Khoulaid';
 
-export const DESIGNATION = `Développeuse Full Stack Java/Angular | Architecte Backend | DevOps`;
+export const DESIGNATION = `Full Stack Java/Angular | Microservices Architect | Cloud Native Developer`;
 
 export const DETAILS = {
   Residence: 'Morocco',
@@ -9,57 +9,59 @@ export const DETAILS = {
 
 export const SKILLS = [
   {
-    title: 'MERN Stack Developer',
+    title: 'Microservices & Distributed Systems', // Hna 3tinaha 9ima kbira
+    level: '85%',
+  },
+  {
+    title: 'Java Ecosystem & Spring AI',
+    level: '90%',
+  },
+  {
+    title: 'DevOps & Containerization (K8s/Docker)',
     level: '75%',
   },
   {
-    title: 'React Developer',
-    level: '91%',
-  },
-  // {
-  //   title: 'Desktop Application Developer',
-  //   level: '75%',
-  // },
-  {
-    title: 'Backend Developer',
-    level: '54%',
-  },
-  {
-    title: 'Technical Blogger',
-    level: '83%',
+    title: 'Modern Frontend (Angular & React)',
+    level: '80%',
   },
 ];
 
 export const TECH_STACK = [
-  'JavaScript',
-  'ReactJS',
-  'NextJS',
+  // Architecture & Core Backend
+  'Microservices', // The Keyword
+  'Spring Cloud',  // Darori m3a Microservices (Gateway, Eureka...)
+  'Spring Boot',
+  'Spring AI',
+  'Java',
+  
+  // DevOps & Cloud
+  'Kubernetes',
+  'Docker',
+  'Jenkins',
+  'AWS',
+  
+  // Frontend
+  'Angular',
+  'React.js',
   'TypeScript',
-  'NodeJS',
-  'greenux',
-  'Zustand',
-  'CSS',
-  'SCSS',
-  'TailwindCSS',
-  'Ant Design',
-  'Material UI',
-  'Next UI',
-  'REST API',
+  
+  // Data & Messaging
+  'PostgreSQL',
   'MongoDB',
-  'MySQL',
-  'Git',
-  'GitHub',
+  'Kafka', // Ila knti kat3rfi lih (Event-driven), howa top m3a Microservices. Ila la, zowlih.
+  
+  // Tools
+  'Git/GitHub',
   'Jira',
-  'Figma',
-  'Adobe XD',
+  'Maven/Gradle',
 ];
 
 export const CONTACTS = {
   EMAIL: 'safiakhoulaid11@gmail.com',
   PHONE: '+212713116389',
 };
+
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/safiaKhoulaid',
   LINKEDIN: 'https://www.linkedin.com/in/safia-khoulaid-92192b317/',
- 
 };
