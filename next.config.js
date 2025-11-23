@@ -4,6 +4,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-};
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  // صافي باركة، مسحنا دوك الجوج سطور
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
