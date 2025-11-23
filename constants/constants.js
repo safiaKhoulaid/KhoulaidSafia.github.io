@@ -1,11 +1,10 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = 'Safia khoulaid';
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATION = `Développeuse Full Stack Java/Angular | Architecte Backend | DevOps`;
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  Residence: 'Morocco',
+  Age: '25',
 };
 
 export const SKILLS = [
@@ -37,7 +36,7 @@ export const TECH_STACK = [
   'NextJS',
   'TypeScript',
   'NodeJS',
-  'Redux',
+  'greenux',
   'Zustand',
   'CSS',
   'SCSS',
@@ -56,12 +55,11 @@ export const TECH_STACK = [
 ];
 
 export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
+  EMAIL: 'safiakhoulaid11@gmail.com',
+  PHONE: '+212713116389',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
+  GITHUB: 'https://github.com/safiaKhoulaid',
+  LINKEDIN: 'https://www.linkedin.com/in/safia-khoulaid-92192b317/',
+ 
 };

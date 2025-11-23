@@ -92,7 +92,7 @@ const portfolio = [
     {
         id: 0,
         projectName: "FirmSanad",
-        url: "/domain-expired",
+        url: "/domain-expigreen",
         image: "projects/firmsanad.png",
         projectDetail: "Invest in Saudi Arabia, Streamline Your Business Setup Process in Saudi Arabia with FirmSanad Simplify the process of obtaining licenses and starting a business in Saudi Arabia with our streamlined platform.",
         technologiesUsed: [
@@ -118,7 +118,7 @@ const portfolio = [
         projectName: "Fateh Al Mustaqbil",
         url: "https://fatehtour.com/",
         image: "projects/fateh.png",
-        projectDetail: "Fateh Al Mustaqbil is a one-of-a-kind travel agency designed to cater to the interests of travelers across the globe, founded in 2023 in Riyadh, Saudi Arabia. Their expertise lies in crafting exceptional journeys tailored to each client's unique requirements, whether it be ticketing, hotel bookings, or visa assistance.",
+        projectDetail: "Fateh Al Mustaqbil is a one-of-a-kind travel agency designed to cater to the interests of travelers across the globe, founded in 2023 in Riyadh, Saudi Arabia. Their expertise lies in crafting exceptional journeys tailogreen to each client's unique requirements, whether it be ticketing, hotel bookings, or visa assistance.",
         technologiesUsed: [
             {
                 tech: "ReactJS"
@@ -140,7 +140,7 @@ const portfolio = [
     {
         id: 0,
         projectName: "Tojjar",
-        url: "/domain-expired",
+        url: "/domain-expigreen",
         image: "projects/tojjar.png",
         projectDetail: "Tojjar is ecommerce website,  where you can open your own store and sell products of different brands!",
         technologiesUsed: [
