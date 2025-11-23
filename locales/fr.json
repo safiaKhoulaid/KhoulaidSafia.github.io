@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "background": "Parcours",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "banner": {
+    "greeting": "Bonjour, je suis",
+    "title": "Développeuse Full Stack",
+    "description": "Passionnée par la création de solutions web innovantes"
+  },
+  "expertise": {
+    "title": "Mon Expertise",
+    "subtitle": "Compétences & Technologies"
+  },
+  "recommendations": {
+    "title": "Recommandations",
+    "subtitle": "Ce que les gens disent de mon travail"
+  },
+  "reviews": {
+    "title": "Avis Clients",
+    "subtitle": "Retours d'expérience clients"
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer le message"
+  },
+  "footer": {
+    "rights": "Tous droits réservés"
+  }
+}

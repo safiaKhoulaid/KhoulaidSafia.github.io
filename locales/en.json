@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "Home",
+    "background": "Background",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "banner": {
+    "greeting": "Hi, I'm",
+    "title": "Full Stack Developer",
+    "description": "Passionate about creating innovative web solutions"
+  },
+  "expertise": {
+    "title": "My Expertise",
+    "subtitle": "Skills & Technologies"
+  },
+  "recommendations": {
+    "title": "Recommendations",
+    "subtitle": "What people say about my work"
+  },
+  "reviews": {
+    "title": "Client Reviews",
+    "subtitle": "Feedback from clients"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}
