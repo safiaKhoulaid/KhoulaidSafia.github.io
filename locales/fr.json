@@ -6,30 +6,46 @@
     "contact": "Contact"
   },
   "banner": {
-    "greeting": "Bonjour, je suis",
-    "title": "Développeuse Full Stack",
-    "description": "Passionnée par la création de solutions web innovantes"
+    "hello": "Bonjour, Découvrez Ceci !",
+    "iam": "Je suis une",
+    "role1": "Développeuse Full Stack",
+    "role2": "Développeuse Java / Angular",
+    "explore": "Explorer",
+    "completedProjects": "Projets Complétés",
+    "freelanceClients": "Clients Freelance",
+    "honorsAwards": "Distinctions & Prix",
+    "opensourceProjects": "Projets Open Source"
   },
   "expertise": {
-    "title": "Mon Expertise",
-    "subtitle": "Compétences & Technologies"
+    "title": "Mon Expertise"
   },
   "recommendations": {
-    "title": "Recommandations",
-    "subtitle": "Ce que les gens disent de mon travail"
+    "title": "Recommandations"
   },
   "reviews": {
-    "title": "Avis Clients",
-    "subtitle": "Retours d'expérience clients"
+    "title": "Avis Clients"
   },
   "contact": {
-    "title": "Me Contacter",
-    "name": "Nom",
+    "title": "Informations de Contact",
+    "country": "Pays",
+    "city": "Ville",
     "email": "Email",
+    "linkedin": "Linkedin",
+    "phone": "Téléphone",
+    "getInTouch": "Entrer en Contact",
+    "name": "Nom",
     "message": "Message",
-    "send": "Envoyer le message"
+    "sendMessage": "ENVOYER LE MESSAGE",
+    "successTitle": "Message Envoyé !",
+    "successMessage": "Merci de m'avoir contacté. Je vous répondrai bientôt.",
+    "ok": "D'accord"
+  },
+  "background": {
+    "education": "Formation",
+    "experience": "Expérience"
   },
   "footer": {
-    "rights": "Tous droits réservés"
+    "rights": "Tous droits réservés.",
+    "madeWith": "Fait avec ❤️ par"
   }
 }

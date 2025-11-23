@@ -7,8 +7,10 @@ import { useQuery } from "react-query";
 import axios from "axios";
 import { Skeleton } from "antd";
 import ParagraphSkeleton from "../components/Common/ParagraphSkeleton";
+import { useTranslation } from "../hooks/useTranslation";
 
 function Background() {
+  const { t } = useTranslation();
   const { isLoading, error, data } = useQuery("background", () =>
     axios
       .get("api/background")
@@ -21,7 +23,7 @@ function Background() {
       <div className="grid md:grid-cols-2 md:divide-x-4 md:divide-red px-4 pb-2 pt-10">
         <div className="flex flex-col gap-y-4 order-2 md:order-1  md:mr-12">
           <div className="mt-10 md:mt-0 text-xl text-Snow font-semibold">
-            Education
+            {t('background.education')}
           </div>
           {isLoading
             ? [1, 2, 3].map((_, i) => (
@@ -38,7 +40,7 @@ function Background() {
         <div className="order-1 md:order-2">
           <div className="flex flex-col gap-y-4 md:ml-12">
             <div className=" md:pt-0 pt-4 text-xl text-Snow font-semibold">
-              Experience
+              {t('background.experience')}
             </div>
 
             {isLoading

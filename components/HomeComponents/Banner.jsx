@@ -1,8 +1,11 @@
 import Typewriter from 'typewriter-effect';
 import BannerLayout from '../Common/BannerLayout';
 import { Link } from 'react-scroll';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const Banner = () => {
+    const { t } = useTranslation();
+    
     return (
         <BannerLayout>
             <div className="absolute inset-0 z-20 flex flex-col items-center py-6 justify-center w-full h-full bg-gradient-to-t from-MidNightBlack">
@@ -10,17 +13,17 @@ const Banner = () => {
                     <div className="flex items-center md:items-center md:justify-around">
                         <div className="">
                             <div className="">
-                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hello, Check This Out!</h1>
+                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">{t('banner.hello')}</h1>
                             </div>
                             <div className="">
                                 <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
                                     <span>{"<"}<span className="text-Green sm:text-base xl:text-lg font-bold">div</span>
-                                        {">"} <span className="text-Snow sm:text-xl xl:text-2xl font-bold"> I am a  <span className="inline-block">
+                                        {">"} <span className="text-Snow sm:text-xl xl:text-2xl font-bold"> {t('banner.iam')}  <span className="inline-block">
                                             <Typewriter
                                                 options={{
                                                     strings:
-                                                        ['Full Stack Developer',
-                                                            'Java / Angular Developer'],
+                                                        [t('banner.role1'),
+                                                            t('banner.role2')],
                                                     autoStart: true,
                                                     loop: true,
                                                 }}
@@ -29,7 +32,7 @@ const Banner = () => {
                                         </span> {"</"}<span className="text-Green sm:text-base xl:text-lg font-bold">div</span>{">"} </span>
                                 </div>
                             </div>
-                            <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">Explore</Link>
+                            <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">{t('banner.explore')}</Link>
                         </div>
                         <div className="w-48 h-52 relative hidden md:block">
                             <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" />
@@ -42,22 +45,22 @@ const Banner = () => {
 
                     <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>10+</span>
-                        <span className='text-xs text-Snow'>Completed Projects</span>
+                        <span className='text-xs text-Snow'>{t('banner.completedProjects')}</span>
                     </div>
 
                     <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>8+</span>
-                        <span className='text-xs text-Snow'>Freelance Clients</span>
+                        <span className='text-xs text-Snow'>{t('banner.freelanceClients')}</span>
                     </div>
 
                     <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>5+</span>
-                        <span className='text-xs text-Snow'>Honors & Awards</span>
+                        <span className='text-xs text-Snow'>{t('banner.honorsAwards')}</span>
                     </div>
 
                     <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>10+</span>
-                        <span className='text-xs text-Snow'>Opensource Projects</span>
+                        <span className='text-xs text-Snow'>{t('banner.opensourceProjects')}</span>
                     </div>
 
                 </div>

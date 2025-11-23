@@ -6,30 +6,46 @@
     "contact": "Contact"
   },
   "banner": {
-    "greeting": "Hi, I'm",
-    "title": "Full Stack Developer",
-    "description": "Passionate about creating innovative web solutions"
+    "hello": "Hello, Check This Out!",
+    "iam": "I am a",
+    "role1": "Full Stack Developer",
+    "role2": "Java / Angular Developer",
+    "explore": "Explore",
+    "completedProjects": "Completed Projects",
+    "freelanceClients": "Freelance Clients",
+    "honorsAwards": "Honors & Awards",
+    "opensourceProjects": "Opensource Projects"
   },
   "expertise": {
-    "title": "My Expertise",
-    "subtitle": "Skills & Technologies"
+    "title": "My Expertise"
   },
   "recommendations": {
-    "title": "Recommendations",
-    "subtitle": "What people say about my work"
+    "title": "Recommendations"
   },
   "reviews": {
-    "title": "Client Reviews",
-    "subtitle": "Feedback from clients"
+    "title": "Clients Reviews"
   },
   "contact": {
-    "title": "Get In Touch",
-    "name": "Name",
+    "title": "Contact Information",
+    "country": "Country",
+    "city": "City",
     "email": "Email",
+    "linkedin": "Linkedin",
+    "phone": "Phone",
+    "getInTouch": "Get In Touch",
+    "name": "Name",
     "message": "Message",
-    "send": "Send Message"
+    "sendMessage": "SEND MESSAGE",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you for contacting me. I will get back to you soon.",
+    "ok": "Okay"
+  },
+  "background": {
+    "education": "Education",
+    "experience": "Experience"
   },
   "footer": {
-    "rights": "All rights reserved"
+    "rights": "All Rights Reserved.",
+    "madeWith": "Made with ❤️ by"
   }
 }

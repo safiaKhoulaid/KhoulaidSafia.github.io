@@ -7,38 +7,40 @@ import { BsChatTextFill } from 'react-icons/bs'
 import Fiverr_Icon from '../components/Fiverr_Icon';
 import Footer from '../components/Footer';
 import { Modal } from 'antd';
+import { useTranslation } from '../hooks/useTranslation';
 
 const Contact = () => {
+    const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false)
 
     return (
         <BannerLayout>
             <div className=" px-4 py-2">
                 <div className="my-6 text-Snow flex flex-col gap-y-5">
-                    <h1 className='text-lg font-bold'>Contact Information</h1>
+                    <h1 className='text-lg font-bold'>{t('contact.title')}</h1>
                     <div className="flex flex-col md:flex-row items-center gap-5 text-xs">
                         <div className="card_stylings w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
-                                <span className='md:text-base'>Country:</span>
+                                <span className='md:text-base'>{t('contact.country')}:</span>
                                 <span className='text-LightGray md:text-sm'>Morocco</span>
                             </div>
                             <div className="flex justify-between items-center">
-                                <span className='md:text-base'>City:</span>
+                                <span className='md:text-base'>{t('contact.city')}:</span>
                                 <span className='text-LightGray md:text-sm'>Safi</span>
                             </div>
                           
                         </div>
                         <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
-                                <span className='md:text-base'>Email:</span>
+                                <span className='md:text-base'>{t('contact.email')}:</span>
                                 <span className='text-LightGray text-sm'>safiakhoulaid11@gmail.com</span>
                             </div>
                             <div className="flex justify-between items-center">
-                                <span className='md:text-base'>Linkedin:</span>
+                                <span className='md:text-base'>{t('contact.linkedin')}:</span>
                                 <span className='text-LightGray text-sm'>safia-khoulaid</span>
                             </div>
                             <div className="flex justify-between items-center">
-                                <span className='md:text-base'>Phone:</span>
+                                <span className='md:text-base'>{t('contact.phone')}:</span>
                                 <span className='text-LightGray text-sm'>+212713116389</span>
                             </div>
                         </div>
@@ -53,7 +55,7 @@ const Contact = () => {
 
 
                 <div className="my-12 w-full h-auto text-Snow">
-                    <h1 className='text-lg font-bold'>Get In Touch</h1>
+                    <h1 className='text-lg font-bold'>{t('contact.getInTouch')}</h1>
                     <div className="mt-4 py-8 px-8 bg-EveningBlack rounded-xl text-sm">
                         <div>
                             <div className="flex flex-col w-full">
@@ -61,7 +63,7 @@ const Contact = () => {
                                     <div id="icon" className="absolute inset-y-0 left-0 flex items-center pl-3 text-xl pointer-events-none">
                                         <HiUser />
                                     </div>
-                                    <input type="text" className="input_stylings" placeholder="Name" />
+                                    <input type="text" className="input_stylings" placeholder={t('contact.name')} />
                                 </div>
                             </div>
 
@@ -70,7 +72,7 @@ const Contact = () => {
                                     <div id="icon" className="absolute inset-y-0 left-0 flex items-center text-xl pl-3 pointer-events-none">
                                         <HiMail />
                                     </div>
-                                    <input type="text" className="input_stylings" placeholder="Email" />
+                                    <input type="text" className="input_stylings" placeholder={t('contact.email')} />
                                 </div>
                             </div>
 
@@ -79,12 +81,12 @@ const Contact = () => {
                                     <div id="icon" className="absolute top-3 left-0 flex items-center text-lg pl-3 pointer-events-none">
                                         <BsChatTextFill />
                                     </div>
-                                    <textarea rows={6} cols={50} className="input_stylings" placeholder="Message" />
+                                    <textarea rows={6} cols={50} className="input_stylings" placeholder={t('contact.message')} />
                                 </div>
                             </div>
 
                             <div className="my-4">
-                                <button onClick={() => setIsOpen(true)} className="button"> SEND MESSAGE </button>
+                                <button onClick={() => setIsOpen(true)} className="button"> {t('contact.sendMessage')} </button>
                             </div>
                         </div>
                     </div>
@@ -93,8 +95,7 @@ const Contact = () => {
             {/* success modal */}
             <Modal
                 className='card_stylings backdrop-blur-3xl drop-shadow-2xl'
-                // wrapClassName='bg-green-800'
-                centegreen
+                centered
                 open={isOpen}
                 footer={null}
                 closable={false}
@@ -102,8 +103,9 @@ const Contact = () => {
                 onCancel={() => setIsOpen(false)}
             >
                 <div className='flex flex-col items-center justify-center'>
-                    <h1 className='text-green font-bold text-2xl'>In Progress</h1>
-                    <a className='underline text-Snow'  href='https://github.com/osamajavaid/portfolio'>Be the one to integrate this!</a>
+                    <h1 className='text-Green font-bold text-2xl'>{t('contact.successTitle')}</h1>
+                    <p className='text-Snow mt-4'>{t('contact.successMessage')}</p>
+                    <button onClick={() => setIsOpen(false)} className='button mt-4'>{t('contact.ok')}</button>
                 </div>
             </Modal>
             <Footer />

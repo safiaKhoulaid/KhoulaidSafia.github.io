@@ -9,7 +9,7 @@ const LanguageSwitcher = () => {
         onClick={() => changeLocale('fr')}
         className={`px-3 py-1 rounded transition-all ${
           locale === 'fr'
-            ? 'bg-blue-600 text-white'
+            ? 'bg-Green text-white font-bold'
             : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
         }`}
       >
@@ -19,7 +19,7 @@ const LanguageSwitcher = () => {
         onClick={() => changeLocale('en')}
         className={`px-3 py-1 rounded transition-all ${
           locale === 'en'
-            ? 'bg-blue-600 text-white'
+            ? 'bg-Green text-white font-bold'
             : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
         }`}
       >
